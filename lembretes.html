@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<!-- Estrutura HTML da Barra de Menu -->
+<header>
+    <nav class="navbar">
+      <div class="logo">
+        <!-- Logo ou nome do site -->
+        <a href="#">Utilidades</a>
+      </div>
+      <ul class="menu">
+        <li><a href="index.html">Calculadora</a></li>
+        <li><a href="anotacoes.html">Anotações</a></li>
+        <li><a href="lembretes.html">Lembretes</a></li>
+        <li><a href="listadetarefas.html">Lista de tarefas</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  
+    <div class="reminder-container">
+        <h1>Gerenciador de Lembretes</h1>
+        <div class="input-container">
+            <input type="text" id="reminderInput" placeholder="Digite seu lembrete...">
+            <button id="addReminderButton">Adicionar Lembrete</button>
+        </div>
+        <ul id="reminderList">
+            <!-- Lista de lembretes será exibida aqui -->
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
